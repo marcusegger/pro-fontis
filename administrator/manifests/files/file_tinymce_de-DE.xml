@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- $Id: file_tinymce_de-DE.xml 781 2012-01-24 14:17:28Z sisko1990 $ -->
+<extension type="file" version="2.5" method="upgrade">
+    <name>TinyMCE de-DE</name>
+    <author>J!German</author>
+    <authorEmail>team@jgerman.de</authorEmail>
+    <authorUrl>http://www.jgerman.de</authorUrl>
+    <copyright>Copyright (C) 2008 - 2012 J!German. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>2.5.1</version>
+    <creationDate>24.01.2012</creationDate>
+    <description><![CDATA[
+    <div align="center">
+      <table border="0" width="90%">
+  	    <tr>
+  		    <td width="100%" colspan="2">
+  		      <div align="center">
+  		        <h3>Deutsche Übersetzung des TinyMCE 3.4.7 für Joomla! ab Version 2.5.0 von J!German</h3>
+  		      </div>
+  		      <hr />
+  		    </td>
+  	    </tr>
+  	    <tr>
+  		    <td width="20%"><u><strong>Ab Joomla!-Version:</strong></u></td>
+  		    <td width="80%">2.5.0</td>
+  	    </tr>
+  	    <tr>
+  		    <td width="20%"><u><strong>&Uuml;bersetzungsversion:</strong></u></td>
+  		    <td width="80%">2.5v1</td>
+  	    </tr>
+  	    <tr>
+  		    <td width="20%"><u><strong>Hinweis:</strong></u></td>
+  		    <td width="80%">Eventuell muss die deutsche Sprache noch in den <a href="index.php?option=com_plugins&view=plugins&filter_search=TinyMCE">Plugineinstellungen des TinyMCEs</a> angepasst werden!</td>
+  	    </tr>
+  	    <td width="100%" colspan="2"><hr /></td>
+  	    <tr>
+  		    <td width="20%"><u><strong>J!German-Website:</strong></u></td>
+  		    <td width="80%"><a href="http://www.jgerman.de" target="_blank">http://www.jgerman.de</a></td>
+  	    </tr>
+  	    <tr>
+  		    <td width="100%" colspan="2">
+  		      <strong><font color="#008000">Bitte überprüfen Sie regelmäßig unsere Projektseite, ob Sie noch die aktuelle Übersetzungsversion einsetzen.</font></strong>
+          </td>
+  	    </tr>
+      </table>
+    </div>]]>
+    </description>
+    <fileset>
+        <files target="media/editors">
+            <filename>tinymce/jscripts/tiny_mce/langs/de.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/advhr/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/advimage/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/advlink/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/autosave/langs/de.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/emotions/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/fullpage/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/media/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/paste/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/style/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/table/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/template/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/themes/advanced/langs/de.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/themes/advanced/langs/de_dlg.js</filename>
+            <filename>tinymce/jscripts/tiny_mce/themes/simple/langs/de.js</filename>
+        </files>
+    </fileset>
+    <updateservers>
+        <server type="collection" priority="1" name="J!German Language Updates">http://update.jgerman.de/translationlist.xml</server>
+    </updateservers>
+</extension>
